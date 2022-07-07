@@ -1,0 +1,28 @@
+{
+  "name": "rodrigofarosoundboard",
+  "version": "1.0.0",
+  "description": "Sound board com os melhores áudios do programa do Rodrigo Faro.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williancapitolio/rodrigofarosoundboard.git"
+  },
+  "author": "Willian Pereira da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williancapitolio/rodrigofarosoundboard/issues"
+  },
+  "homepage": "https://github.com/williancapitolio/rodrigofarosoundboard#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
