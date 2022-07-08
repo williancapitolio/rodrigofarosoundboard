@@ -41,9 +41,7 @@ btnsAudio.forEach(btnAudio => {
         let sound = audios[btnAudio.getAttribute('data-item')];
         audioTag.setAttribute('scr', sound.path);
         audioTag.addEventListener('loadeddata', () => {
-            console.log('tocando')
             audioTag.play();
-            onsole.log('nao tocando')
         });
     });
 });
