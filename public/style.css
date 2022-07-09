@@ -19,9 +19,20 @@ body {
     background-color: var(--colorBg);
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bgImg {
     width: 100%;
     text-align: center;
+}
+
+.bgImg img {
+    max-height: 20rem;
+    max-width: 15rem;
 }
 
 .btnContainer {
@@ -29,17 +40,22 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 25rem;
     margin: 0 auto;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .btnAudio {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
 }
 
 .btnContainer > div {
     height: 10.125rem;
-    margin: 0 2rem 1rem 2rem;
+    margin: 0 .5rem .5rem .5rem;
+}
+
+.btnContainer p {
+    font-size: .75rem;
+    font-weight: 500;
 }
