@@ -39,7 +39,7 @@ btnsAudio.forEach(btnAudio => {
     btnAudio.addEventListener('click', () => {
         //btnsAudio.setAttribute('scr', 'btnpressed.png');
         let sound = audios[btnAudio.getAttribute('data-item')];
-        audioTag.setAttribute('scr', sound.path);
+        audioTag.setAttribute('src', sound.path);
         audioTag.addEventListener('loadeddata', () => {
             audioTag.play();
         });
