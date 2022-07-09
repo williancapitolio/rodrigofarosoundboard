@@ -26,7 +26,7 @@ let audios = [
 ];
 
 let btnsAudio = document.querySelectorAll('.btnAudio');
-let titles = document.querySelectorAll('p');
+let titles = document.querySelectorAll('.title');
 
 for (let i = 0; i < audios.length; i++) {
     titles[i].textContent = audios[i].title;
